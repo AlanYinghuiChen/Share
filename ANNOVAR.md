@@ -74,12 +74,18 @@ Note that another way is to google for it, get it from the web, and put it in th
 ```
 gunzip Hordeum*.gz
 ./gff3ToGenePred Hordeum_vulgare.Hv_IBSC_PGSB_v2.39.gff3 HV39-refGene0.txt
+```
 add a random first field to HV39_refGene0.txt using nl (adding the line number to each line)
+```
 nl HV39_refGene0.txt >HV39_refGene.txt
+```
+or
+```
+awk '{print NR"\t"$0}' HV39_refGene0.txt >HV39_refGene.txt
+```
 return to the ANNOVAR directory and do below
+```
 cd ..
-```
-```
 retrieve_seq_from_fasta.pl barleydb/HV39_refGene.txt -seqfile barleydb/Hordeum_vulgare.Hv_IBSC_PGSB_v2.dna.toplevel.fa -format ensGene -outfile barleydb/HV39_refGeneMrna.fa
 ```
 If the ANNOVAR directory is not placed in the PATH of .bash_profile or .bashsrc, you must use perl in the front of the command:
