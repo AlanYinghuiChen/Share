@@ -36,9 +36,9 @@ b.运行脚本，进行cmscan比对
 
 cd /BioII/lulab_b/chenyinghui/project/shapeMap/result_two/06.gini_transcript/Rfam/cmscan  
 
-nohup col_UV+_NAI.cmscan.sh 1>col_UV+_NAI.cmscan.sh.o 2>col_UV+_NAI.cmscan.sh.e &  
+nohup sh col_UV+_NAI.cmscan.sh 1>col_UV+_NAI.cmscan.sh.o 2>col_UV+_NAI.cmscan.sh.e &  
 
-nohup uvr_UV+_NAI.cmscan.sh 1>uvr_UV+_NAI.cmscan.sh.o 2>uvr_UV+_NAI.cmscan.sh.e & 
+nohup sh uvr_UV+_NAI.cmscan.sh 1>uvr_UV+_NAI.cmscan.sh.o 2>uvr_UV+_NAI.cmscan.sh.e & 
 
 
 
