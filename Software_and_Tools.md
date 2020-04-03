@@ -9,7 +9,9 @@
 - denovo assembly software: Trinity
 #### (2.4) CNV
 - Whole Genome Seq: Control-FREEC  
-####
+- Whole exome Seq: CONTRA,ExomeCNV
+#### (2.5) SV (structural variation)
+- breakdancer
 
 ### 5) Epigenetic Data
 - DNA Methylation 
