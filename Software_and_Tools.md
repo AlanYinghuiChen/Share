@@ -10,7 +10,7 @@
 - denovo assembly software: Trinity
 #### (2.4) CNV
 - Whole Genome Seq: Control-FREEC  
-- Whole exome Seq: CONTRA, ExomeCNV
+- Whole exome Seq: CONTRA, [ExomeCNV](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3179661/)
 #### (2.5) SV (structural variation)
 - Breakdancer
 
