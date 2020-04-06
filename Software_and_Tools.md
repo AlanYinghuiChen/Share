@@ -12,17 +12,20 @@
 - Whole Genome Seq: Control-FREEC  
 - Whole exome Seq: CONTRA, ExomeCNV
 #### (2.5) SV (structural variation)
-- breakdancer
+- Breakdancer
 
 ### 5) Epigenetic Data
 #### (5.1)DNA Methylation 
  - Bi-sulfate data:
    - Review: [Katarzyna Wreczycka, et al. Strategies for analyzing bisulfite sequencing data. Journal of Biotechnology. 2017.](https://www.sciencedirect.com/science/article/pii/S0168165617315936)
-   - Mapping: BSMAP
-   - 
+   - Mapping: [Bismark](http://www.bioinformatics.babraham.ac.uk/projects/bismark/), BSMAP
+   - Differential Methylation Regions (DMRs) detection: methylkit, ComMet
+   - Segmentation of the methylome, Classification of Fully Methylated Regions (FMRs), Unmethylated Regions (UMRs) and Low-Methylated Regions (LMRs): MethylSeekR
+   - Annotation of DMRs: [genomation](https://bioconductor.org/packages/release/bioc/html/genomation.html), [ChIPpeakAnno](https://www.bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html)
+   -Web-based service: [WBSA](http://wbsa.big.ac.cn/)
  - IP data:
    - Overview to CHIP-Seq: https://github.com/crazyhottommy/ChIP-seq-analysis
-   - peak calling: MACS
+   - peak calling: [MACS](https://github.com/taoliu/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
    - Peak annotation: [HOMER annotatePeak](http://homer.ucsd.edu/homer/ngs/annotation.html), [ChIPseeker](http://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
    - Gene set enrichment analysis for ChIP-seq peaks: [GREAT](http://bejerano.stanford.edu/great/public/html/)
    
