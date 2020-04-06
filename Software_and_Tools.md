@@ -25,7 +25,7 @@
    - Web-based service: [WBSA](http://wbsa.big.ac.cn/)
  - IP data:
    - Overview to CHIP-Seq: https://github.com/crazyhottommy/ChIP-seq-analysis
-   - peak calling: [MACS](https://github.com/taoliu/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
+   - peak calling: [MACS2](https://github.com/taoliu/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
    - Peak annotation: [HOMER annotatePeak](http://homer.ucsd.edu/homer/ngs/annotation.html), [ChIPseeker](http://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
    - Gene set enrichment analysis for ChIP-seq peaks: [GREAT](http://bejerano.stanford.edu/great/public/html/)
    
