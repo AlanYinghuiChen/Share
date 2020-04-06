@@ -21,8 +21,8 @@
    - Mapping: [Bismark](http://www.bioinformatics.babraham.ac.uk/projects/bismark/), BSMAP
    - Differential Methylation Regions (DMRs) detection: methylkit, ComMet
    - Segmentation of the methylome, Classification of Fully Methylated Regions (FMRs), Unmethylated Regions (UMRs) and Low-Methylated Regions (LMRs): MethylSeekR
-   - Annotation of DMRs: [genomation](https://bioconductor.org/packages/release/bioc/html/genomation.html), [ChIPpeakAnno](https://www.bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html)
-   -Web-based service: [WBSA](http://wbsa.big.ac.cn/)
+   - Annotation of DMRs: [genomation](https://bioconductor.org/packages/release/bioc/html/genomation.html), [ChIPpeakAnno](https://www.bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html)  
+   - Web-based service: [WBSA](http://wbsa.big.ac.cn/)
  - IP data:
    - Overview to CHIP-Seq: https://github.com/crazyhottommy/ChIP-seq-analysis
    - peak calling: [MACS](https://github.com/taoliu/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
