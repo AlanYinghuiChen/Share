@@ -2,7 +2,7 @@
 #### (2.1) Mapping and QC  
 - Remove adaptor: [cutadapt](https://cutadapt.readthedocs.io/en/stable/), [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
 - Mapping: [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml), [STAR](https://github.com/alexdobin/STAR)  
-- QC: fastqc  
+- QC: [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 #### (2.2) Mutation
 - Mutation discovery: [GATK](https://gatk.broadinstitute.org/hc/en-us), [Varscan](http://dkoboldt.github.io/varscan/)
 - Mutation annotation: [ANNOVAR](http://annovar.openbioinformatics.org/en/latest/user-guide/download/)
