@@ -18,8 +18,8 @@
 #### (5.1)DNA Methylation 
  - Bi-sulfate data:
    - Review: [Katarzyna Wreczycka, et al. Strategies for analyzing bisulfite sequencing data. Journal of Biotechnology. 2017.](https://www.sciencedirect.com/science/article/pii/S0168165617315936)
-   - Mapping: [Bismark](http://www.bioinformatics.babraham.ac.uk/projects/bismark/), BSMAP
-   - Differential Methylation Regions (DMRs) detection: methylkit, ComMet
+   - Mapping: [Bismark](http://www.bioinformatics.babraham.ac.uk/projects/bismark/), [BSMAP](https://github.com/zyndagj/BSMAPz)
+   - Differential Methylation Regions (DMRs) detection: [methylkit](https://bioconductor.org/packages/release/bioc/html/methylKit.html), [ComMet](https://github.com/yutaka-saito/ComMet)
    - Segmentation of the methylome, Classification of Fully Methylated Regions (FMRs), Unmethylated Regions (UMRs) and Low-Methylated Regions (LMRs): [MethylSeekR](http://www.bioconductor.org/packages/release/bioc/html/MethylSeekR.html)
    - Annotation of DMRs: [genomation](https://bioconductor.org/packages/release/bioc/html/genomation.html), [ChIPpeakAnno](https://www.bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html)  
    - Web-based service: [WBSA](http://wbsa.big.ac.cn/)
