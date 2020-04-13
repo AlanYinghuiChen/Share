@@ -1,3 +1,4 @@
+Review: Yang Yun and Wang Zefeng. IRES-mediated cap-independent translation, a path leading to hidden proteome. Journal of Molecular Cell Biology. 2019
 
 #### IRES in cellular stress response
 Previous studies have shown that 10% of the mRNA may contain the IRESs (Spriggs et al., 2008; Weingarten-Gabbay et al.,
@@ -12,6 +13,7 @@ pathways.
 #### alternative translation
 Similar to alternative splicing, this ‘alternative translation’ may serve as a new mechanism to increase the proteome complexity
 encoded by the human genome
+
 
 #### cellular IRESs
 The cellular IRESs can be roughly classified into two types based on the mechanisms of ribosome recruitment: 
@@ -32,5 +34,5 @@ Since the circRNA can only be translated through cap-independent fashion, this s
 
 circRNA reporter system will be a useful tool to examine the activity of cellular IRESs.
 
-### m6A and IRES
+#### m6A and IRES
 Interestingly, using circRNA reporter genes, it was reported that many short RNA elements containing m6A have IRES-like activity to drive the cap-independent translation of circRNAs (Yang et al., 2017).
