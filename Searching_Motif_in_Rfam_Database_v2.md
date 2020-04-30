@@ -9,13 +9,12 @@
 /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/04.fasta    
 
 - 脚本：  
-
-  - UV照射条件变化：  
+  
 ```
+UV照射条件变化：
 /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/04.fasta/get_delta_gini_fasta_UV-cahnge.sh
-```
-  - uvr8敲除与野生型比较（光照条件不变）：   
-```
+
+uvr8敲除与野生型比较（光照条件不变）：   
 /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/04.fasta/get_delta_gini_fasta_uvr8-cahnge.sh
 ```
 
@@ -45,7 +44,6 @@ UV照射条件变化：
 uvr8敲除与野生型比较（光照条件不变）：   
 /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/05.cmscan/cmscan_uvr8-change.sh
 ```
-
   - b.运行脚本，进行cmscan比对  
 ```
 cd /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/05.cmscan/
