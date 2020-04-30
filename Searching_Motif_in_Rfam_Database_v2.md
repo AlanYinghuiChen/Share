@@ -4,18 +4,22 @@
 
 （转录本上的gini index计算可以参考晓帆的脚本）  
 
-文件路径：  
+- 文件路径：  
 
 /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/04.fasta    
 
-脚本：  
+- 脚本：  
 
-UV照射条件变化：
+  - UV照射条件变化：  
+```
 /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/04.fasta/get_delta_gini_fasta_UV-cahnge.sh
-uvr8敲除与野生型比较（光照条件不变）：
+```
+  - uvr8敲除与野生型比较（光照条件不变）：   
+```
 /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/04.fasta/get_delta_gini_fasta_uvr8-cahnge.sh
+```
 
-脚本解释：  
+- 脚本解释：  
 
 ```
 python  read_transcript_gini_4.py  [GTF file]  [输入：转录本Gini index结果文件目录]  [输出：gini index>=0.1窗口（合并后）所在区域类型统计表]  [输出：窗口（合并后）长度统计表]  [输出：窗口的fasta序列目录]   
@@ -26,47 +30,44 @@ python  read_transcript_gini_4.py  [GTF file]  [输入：转录本Gini index结�
 
 cmscan是[Infernal](https://github.com/EddyRivasLab/infernal)的子程序。
 
-目录：  
+- 目录：  
 
-/BioII/lulab_b/chenyinghui/project/shapeMap/result_two/06.gini_transcript/Rfam/cmscan
+/BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/05.cmscan
 
-脚本：
+- 脚本：
 
-a. 每个转录本生成一个cmscan脚本
+  - a. 每个转录本生成一个cmscan脚本
+ 
+```
+UV照射条件变化： 
+/BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/05.cmscan/cmscan.UV-change.sh
 
-/BioII/lulab_b/chenyinghui/project/shapeMap/result_two/06.gini_transcript/Rfam/cmscan/cmscan.sh
+uvr8敲除与野生型比较（光照条件不变）：   
+/BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/05.cmscan/cmscan_uvr8-change.sh
+```
 
-b.运行脚本，进行cmscan比对  
+  - b.运行脚本，进行cmscan比对  
+```
+cd /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/05.cmscan/
 
-cd /BioII/lulab_b/chenyinghui/project/shapeMap/result_two/06.gini_transcript/Rfam/cmscan  
-
-nohup sh col_UV+_NAI.cmscan.sh 1>col_UV+_NAI.cmscan.sh.o 2>col_UV+_NAI.cmscan.sh.e &  
-
-nohup sh uvr_UV+_NAI.cmscan.sh 1>uvr_UV+_NAI.cmscan.sh.o 2>uvr_UV+_NAI.cmscan.sh.e & 
-
+nohup sh col_UV+_vs_UV-_NAI.cmscan.sh 1>col_UV+_vs_UV-_NAI.cmscan.sh.o 2>col_UV+_vs_UV-_NAI.cmscan.sh.e &  
+...
+```
 
 
 ### 3.提取cmscan比对信息
 
-目录：   
+- 目录：   
+```
+/BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/06.motif_alignment_info   
+```
 
-/BioII/lulab_b/chenyinghui/project/shapeMap/result_two/06.gini_transcript/Rfam/motif_alignment_info   
+- 脚本：   
+```
+UV照射条件变化： 
+/BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/06.motif_alignment_info/cmscan_result_summary.sig_UV-change.sh
 
-脚本：   
-
-cmscan_result_summary.shcmscan_result_summary.sh    
-
-
-
-### 4.绘制Gini index的Aggregated plot
-
-目录：
-
-/BioII/lulab_b/chenyinghui/project/shapeMap/result_two/06.gini_transcript/Rfam/aggregated_plot
-
-脚本：
-
-aggregating_plot_col_UV+_NAI.sh
-
-aggregating_plot_uvr_UV+_NAI.sh
+uvr8敲除与野生型比较（光照条件不变）：   
+/BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/06.motif_alignment_info/cmscan_result_summary.sig_uvr8-change.sh
+```
 
