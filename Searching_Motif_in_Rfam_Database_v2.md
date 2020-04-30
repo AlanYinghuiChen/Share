@@ -35,7 +35,7 @@ cmscan是[Infernal](https://github.com/EddyRivasLab/infernal)的子程序。
 
 - 脚本：
 
-  - a. 每个转录本生成一个cmscan脚本
+a. 每个转录本生成一个cmscan脚本
  
 ```
 UV照射条件变化： 
@@ -44,7 +44,7 @@ UV照射条件变化：
 uvr8敲除与野生型比较（光照条件不变）：   
 /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/05.cmscan/cmscan_uvr8-change.sh
 ```
-  - b.运行脚本，进行cmscan比对  
+b.运行脚本，进行cmscan比对  
 ```
 cd /BioII/lulab_b/chenyinghui/project/shapeMap/result_ziyuan/05.cmscan/
 
