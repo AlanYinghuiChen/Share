@@ -78,10 +78,10 @@ done
 ### 3) 对REDItools的结果进一步过滤，对过滤后的RNA editing进行注释
 
 - 过滤标准 (参考REDItools的默认参数)
-  - 只保留A -> G、或T -> C的RNA-editing位点
-  - 要求变异频率 (alt reads/ total reads) > 0.1
-  - 要求total reads > 10
-  - 要求 alt reads > 3
+  - 只保留A -> G 或T -> C的RNA-editing位点
+  - 要求变异频率 (alt reads/ total reads) >= 0.1
+  - 要求total reads >= 10
+  - 要求 alt reads >= 3
  
  - 脚本
  ```
