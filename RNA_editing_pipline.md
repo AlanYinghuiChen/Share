@@ -137,5 +137,25 @@ echo 9.Annotation end \`date\`
 done
  ```
  
- ### 4)
+ ### 4) 将同种癌症类型的样本信息合并成矩阵文件
+ 
+ - 脚本
+ ```
+ /BioII/lulab_b/chenyinghui/project/exRNA/editing/4.feature.matrix.sh
+ ```
+ 
+ ```
+rootDir='/BioII/lulab_b/chenyinghui/project/exRNA/editing'
+sampleType="CRC ESCA HCC LUAD NC STAD"
 
+for type in $sampleType
+do
+echo "python $rootDir/bin/feature.matrix.py $rootDir/sampleList/$type.txt $rootDir/filtered/$type $rootDir/matrix $type" > "$rootDir/matrix/script/$type.matrix.sh"
+ ```
+### 5) 将癌症与正常样本的矩阵合并
+
+- 脚本
+
+```
+/BioII/lulab_b/chenyinghui/project/exRNA/editing/matrix/merge/merge.sh
+```
