@@ -1,7 +1,8 @@
 
 ### 1）使用REDItools寻找REDIportal数据库中已知的RNA editing位点  
 
-- 脚本
+- 脚本  
+
 每种癌症类型各有一个生成脚本的总脚本  
 ```
 /BioII/lulab_b/chenyinghui/project/exRNA/editing/CRC_RNA-edit.mRNA.sh
